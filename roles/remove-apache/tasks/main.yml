@@ -1,0 +1,5 @@
+---
+# tasks file for remove-apache
+
+# Remove "foo" package
+- apt: name=apache2 state=absent
